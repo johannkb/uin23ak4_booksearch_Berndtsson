@@ -1,2 +1,1 @@
-# uin23ak4_booksearch_Berndtsson
- 
+Bruk https://openlibrary.org/developers/api for dokumentasjon, sjekk un coursebase for kode eksempler

@@ -1,42 +1,71 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root{
+  background-color: gray;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.book-list {
+  display: inline-flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  flex-direction: row;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book-item {
+  width: 310px;
+  height: 550px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  background-color: white;
+  align-items: center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.photo {
+  max-width: 250px;
+  min-width: 250px;
+  max-height: 300px;
+  min-height: 300px;
+  border-radius: 1px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
-.card {
-  padding: 2em;
+.input{
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-.read-the-docs {
-  color: #888;
+.btn{
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.inputbtnform{
+  padding-left: 1rem;
+}
+
+h1{
+  padding-left: 1rem;
+}
+
+h2{
+  padding-left: 1rem;
+}
+
+p{
+  padding:0;
+  margin: 0;
 }

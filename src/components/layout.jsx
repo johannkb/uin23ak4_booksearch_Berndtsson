@@ -7,7 +7,7 @@ export default function Layout() {
 
     const handleSearch = async () => {
         try {
-            if (searchBook.length >= 3) {
+            if (searchBook.length >= 4) {
                 const response = await fetch(`https://openlibrary.org/search.json?q=${searchBook}`)
                 const data = await response.json()
                 setBooks(data.docs)

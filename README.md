@@ -1,1 +1,1 @@
-Bruk https://openlibrary.org/developers/api for dokumentasjon, sjekk un coursebase for kode eksempler
+
